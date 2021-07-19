@@ -14,9 +14,14 @@ void loop()
 {
 
   digitalWrite(led1,HIGH); 
-  digitalWrite(led2,LOW); //Green off
+  digitalWrite(led2,LOW); 
   delay(delay); // in ms
-  digitalWrite(led1,LOW); //Red off
-  digitalWrite(led2,HIGH); //Green on
+  digitalWrite(led1,LOW); 
+  digitalWrite(led2,HIGH); 
   delay(delay); // in ms
 }
+
+
+
+
+// made by ashton in advance for his arduino project
